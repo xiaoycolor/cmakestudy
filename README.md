@@ -1,1 +1,1 @@
-# cmakestudy
+# cmake study
