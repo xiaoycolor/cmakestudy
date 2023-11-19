@@ -6,3 +6,4 @@ project(CMakeTemplate VERSION 1.0.0 LANGUAGES CXX)
 include_directories(${PROJECT_SOURCE_DIR})
 
 add_subdirectory(src/thread)
+add_subdirectory(src/sort)
