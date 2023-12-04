@@ -28,7 +28,9 @@ private:
 class QuickSort : public SortFactory
 {
 public:
+    QuickSort() {};
     QuickSort(std::vector<int> &raw_data);
     void sort();
+    void sort1(std::vector<int> &data);
     void mySort(int start, int end, std::vector<int> &data);
 };

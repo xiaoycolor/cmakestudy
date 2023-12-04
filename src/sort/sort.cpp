@@ -46,3 +46,12 @@ void QuickSort::sort()
     mySort(start, end, data);
     printData(data);
 }
+
+void QuickSort::sort1(std::vector<int> &data)
+{
+    int size = data.size();
+    int start = 0;
+    int end = size - 1;
+    mySort(start, end, data);
+    printData(data);
+}
