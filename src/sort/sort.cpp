@@ -55,3 +55,12 @@ void QuickSort::sort1(std::vector<int> &data)
     mySort(start, end, data);
     printData(data);
 }
+
+std::vector<int> QuickSort::sortAndGetData(){
+    auto data = getData();
+    int size = data.size();
+    int start = 0;
+    int end = size - 1;
+    mySort(start, end, data);
+    return data;
+}
